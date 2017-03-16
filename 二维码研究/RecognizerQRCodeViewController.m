@@ -31,7 +31,7 @@
 {
     [self setupImageView];
 
-    NSString *string = [SCQRCodeManager sharedManager].qrCodeRecognizer.recognizeQRCode(self.qrcodeImageView.image);
+    NSString *string = SCQRCodeManager.sharedManager.qrCodeRecognizer.recognizeQRCode(self.qrcodeImageView.image);
     if (string.length == 0) {
         return;
     }

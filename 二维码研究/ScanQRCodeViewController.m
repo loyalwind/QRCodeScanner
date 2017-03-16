@@ -25,6 +25,7 @@
     
     SCQRCodeScanner *scanner = [[SCQRCodeScanner alloc] initWithPreviewFrame:self.view.bounds];
     [self.view insertSubview:scanner.preview atIndex:0];
+    // 设置扫描识别区域
     scanner.preview.rectOfPierce = CGRectMake((self.view.bounds.size.width-250)*0.5, (self.view.bounds.size.height-250)*0.3, 250, 250);
     _scanner = scanner;
     
@@ -88,7 +89,7 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
     UIImage *image = info[UIImagePickerControllerOriginalImage];
-    NSString *qrcodeText = [SCQRCodeManager sharedManager].qrCodeRecognizer.recognizeQRCode(image);
+    NSString *qrcodeText = SCQRCodeManager.sharedManager.qrCodeRecognizer.recognizeQRCode(image);
     
     [picker dismissViewControllerAnimated:YES completion:^{
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"识别结果" message:qrcodeText delegate:nil cancelButtonTitle:@"取消" otherButtonTitles: nil, nil];

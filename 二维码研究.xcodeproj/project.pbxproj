@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70598081E7A96A800DB4737 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A70598071E7A96A800DB4737 /* README.md */; };
 		A72B385B1E5C2BE500AC2178 /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82FE1E4C707000677E16 /* ScanQRCodeViewController.m */; };
 		A72B38921E6408A600AC2178 /* SCQRCodeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38901E6408A600AC2178 /* SCQRCodeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A72B38951E6408A600AC2178 /* SCQRCodeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A70598071E7A96A800DB4737 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCQRCodeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72B38901E6408A600AC2178 /* SCQRCodeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCQRCodeFramework.h; sourceTree = "<group>"; };
 		A72B38911E6408A600AC2178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				A7BF82EF1E4C6C2100677E16 /* Assets.xcassets */,
 				A7BF82F11E4C6C2100677E16 /* LaunchScreen.storyboard */,
 				A7BF82F41E4C6C2100677E16 /* Info.plist */,
+				A70598071E7A96A800DB4737 /* README.md */,
 				A7BF82E31E4C6C2100677E16 /* Supporting Files */,
 			);
 			path = "二维码研究";
@@ -332,6 +335,7 @@
 				A72B385B1E5C2BE500AC2178 /* ScanQRCodeViewController.m in Sources */,
 				A7BF83021E4C708700677E16 /* RecognizerQRCodeViewController.m in Sources */,
 				A7BF82EB1E4C6C2100677E16 /* ViewController.m in Sources */,
+				A70598081E7A96A800DB4737 /* README.md in Sources */,
 				A7BF82E81E4C6C2100677E16 /* AppDelegate.m in Sources */,
 				A7BF82FC1E4C705D00677E16 /* GeneratorQRCodeViewController.m in Sources */,
 				A7BF82E51E4C6C2100677E16 /* main.m in Sources */,
@@ -548,6 +552,7 @@
 				A72B389A1E6408A600AC2178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7BF82DB1E4C6C2100677E16 /* Build configuration list for PBXProject "二维码研究" */ = {
 			isa = XCConfigurationList;
