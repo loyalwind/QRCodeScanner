@@ -1,0 +1,51 @@
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "73Z-IK-1QS"; */
+"73Z-IK-1QS.title" = "首页";
+
+/* Class = "UIViewController"; title = "扫描二维码"; ObjectID = "CD5-Tk-4GI"; */
+"CD5-Tk-4GI.title" = "扫描二维码";
+
+/* Class = "UIButton"; normalTitle = "切换小区域"; ObjectID = "Esy-57-ztG"; */
+"Esy-57-ztG.normalTitle" = "切换小区域";
+
+/* Class = "UIViewController"; title = "生成二维码"; ObjectID = "GSH-pG-buQ"; */
+"GSH-pG-buQ.title" = "生成二维码";
+
+/* Class = "UIButton"; normalTitle = "切换大区域"; ObjectID = "GSS-eg-8US"; */
+"GSS-eg-8US.normalTitle" = "切换大区域";
+
+/* Class = "UIButton"; normalTitle = "测试memberVc"; ObjectID = "I6z-cr-zLk"; */
+"I6z-cr-zLk.normalTitle" = "测试memberVc";
+
+/* Class = "UIButton"; normalTitle = "生成二维码"; ObjectID = "Kh3-Te-z2N"; */
+"Kh3-Te-z2N.normalTitle" = "生成二维码";
+
+/* Class = "UIViewController"; title = "识别二维码"; ObjectID = "cYW-1G-4pC"; */
+"cYW-1G-4pC.title" = "识别二维码";
+
+/* Class = "UITextField"; placeholder = "请输入二维码信息"; ObjectID = "ckX-rZ-qYw"; */
+"ckX-rZ-qYw.placeholder" = "请输入二维码信息";
+
+/* Class = "UITextField"; text = "www.baidu.com.tencent.cn.alibaba"; ObjectID = "ckX-rZ-qYw"; */
+"ckX-rZ-qYw.text" = "www.baidu.com.tencent.cn.alibaba";
+
+/* Class = "UIButton"; normalTitle = "生成二维码"; ObjectID = "d18-Hi-j3N"; */
+"d18-Hi-j3N.normalTitle" = "生成二维码";
+
+/* Class = "UIButton"; normalTitle = "白底黑点"; ObjectID = "fEm-Cf-bga"; */
+"fEm-Cf-bga.normalTitle" = "白底黑点";
+
+/* Class = "UIButton"; normalTitle = "识别二维码"; ObjectID = "j9x-Om-O8F"; */
+"j9x-Om-O8F.normalTitle" = "识别二维码";
+
+/* Class = "UIButton"; normalTitle = "蓝底红点"; ObjectID = "nPz-2e-WLd"; */
+"nPz-2e-WLd.normalTitle" = "蓝底红点";
+
+/* Class = "UIButton"; normalTitle = "开灯"; ObjectID = "p4Y-FS-X6X"; */
+"p4Y-FS-X6X.normalTitle" = "开灯";
+
+/* Class = "UIButton"; normalTitle = "扫描二维码"; ObjectID = "r9n-VA-h9E"; */
+"r9n-VA-h9E.normalTitle" = "扫描二维码";
+
+/* Class = "UIButton"; normalTitle = "识别图片二维码"; ObjectID = "us5-k6-RU7"; */
+"us5-k6-RU7.normalTitle" = "识别图片二维码";

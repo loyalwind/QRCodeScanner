@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72B385B1E5C2BE500AC2178 /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82FE1E4C707000677E16 /* ScanQRCodeViewController.m */; };
+		A72B38921E6408A600AC2178 /* SCQRCodeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38901E6408A600AC2178 /* SCQRCodeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38951E6408A600AC2178 /* SCQRCodeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */; };
+		A72B38971E6408A600AC2178 /* SCQRCodeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A72B38AE1E6409FB00AC2178 /* SCAuthorizationStatusTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38A21E6409FB00AC2178 /* SCAuthorizationStatusTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38AF1E6409FB00AC2178 /* SCAuthorizationStatusTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38A31E6409FB00AC2178 /* SCAuthorizationStatusTools.m */; };
+		A72B38B01E6409FB00AC2178 /* SCCapturePreview.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38A41E6409FB00AC2178 /* SCCapturePreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38B11E6409FB00AC2178 /* SCCapturePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38A51E6409FB00AC2178 /* SCCapturePreview.m */; };
+		A72B38B21E6409FB00AC2178 /* SCQRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38A61E6409FB00AC2178 /* SCQRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38B31E6409FB00AC2178 /* SCQRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38A71E6409FB00AC2178 /* SCQRCodeGenerator.m */; };
+		A72B38B41E6409FB00AC2178 /* SCQRCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38A81E6409FB00AC2178 /* SCQRCodeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38B51E6409FB00AC2178 /* SCQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38A91E6409FB00AC2178 /* SCQRCodeManager.m */; };
+		A72B38B61E6409FB00AC2178 /* SCQRCodeRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38AA1E6409FB00AC2178 /* SCQRCodeRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38B71E6409FB00AC2178 /* SCQRCodeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38AB1E6409FB00AC2178 /* SCQRCodeRecognizer.m */; };
+		A72B38B81E6409FB00AC2178 /* SCQRCodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A72B38AC1E6409FB00AC2178 /* SCQRCodeScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72B38B91E6409FB00AC2178 /* SCQRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B38AD1E6409FB00AC2178 /* SCQRCodeScanner.m */; };
+		A72B38BD1E64111C00AC2178 /* SCQRCodeFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A72B38BC1E64111C00AC2178 /* SCQRCodeFramework.bundle */; };
+		A72B38BE1E64117C00AC2178 /* SCQRCodeFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A72B38BC1E64111C00AC2178 /* SCQRCodeFramework.bundle */; };
+		A7BF82E51E4C6C2100677E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82E41E4C6C2100677E16 /* main.m */; };
+		A7BF82E81E4C6C2100677E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82E71E4C6C2100677E16 /* AppDelegate.m */; };
+		A7BF82EB1E4C6C2100677E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82EA1E4C6C2100677E16 /* ViewController.m */; };
+		A7BF82EE1E4C6C2100677E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF82EC1E4C6C2100677E16 /* Main.storyboard */; };
+		A7BF82F01E4C6C2100677E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF82EF1E4C6C2100677E16 /* Assets.xcassets */; };
+		A7BF82F31E4C6C2100677E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BF82F11E4C6C2100677E16 /* LaunchScreen.storyboard */; };
+		A7BF82FC1E4C705D00677E16 /* GeneratorQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF82FB1E4C705D00677E16 /* GeneratorQRCodeViewController.m */; };
+		A7BF83021E4C708700677E16 /* RecognizerQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF83011E4C708700677E16 /* RecognizerQRCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72B38931E6408A600AC2178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BF82D81E4C6C2100677E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72B388D1E6408A600AC2178;
+			remoteInfo = SCQRCodeFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A72B38961E6408A600AC2178 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A72B38971E6408A600AC2178 /* SCQRCodeFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCQRCodeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72B38901E6408A600AC2178 /* SCQRCodeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCQRCodeFramework.h; sourceTree = "<group>"; };
+		A72B38911E6408A600AC2178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72B38A21E6409FB00AC2178 /* SCAuthorizationStatusTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAuthorizationStatusTools.h; sourceTree = "<group>"; };
+		A72B38A31E6409FB00AC2178 /* SCAuthorizationStatusTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAuthorizationStatusTools.m; sourceTree = "<group>"; };
+		A72B38A41E6409FB00AC2178 /* SCCapturePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCapturePreview.h; sourceTree = "<group>"; };
+		A72B38A51E6409FB00AC2178 /* SCCapturePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCapturePreview.m; sourceTree = "<group>"; };
+		A72B38A61E6409FB00AC2178 /* SCQRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCQRCodeGenerator.h; sourceTree = "<group>"; };
+		A72B38A71E6409FB00AC2178 /* SCQRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCQRCodeGenerator.m; sourceTree = "<group>"; };
+		A72B38A81E6409FB00AC2178 /* SCQRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCQRCodeManager.h; sourceTree = "<group>"; };
+		A72B38A91E6409FB00AC2178 /* SCQRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCQRCodeManager.m; sourceTree = "<group>"; };
+		A72B38AA1E6409FB00AC2178 /* SCQRCodeRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCQRCodeRecognizer.h; sourceTree = "<group>"; };
+		A72B38AB1E6409FB00AC2178 /* SCQRCodeRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCQRCodeRecognizer.m; sourceTree = "<group>"; };
+		A72B38AC1E6409FB00AC2178 /* SCQRCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCQRCodeScanner.h; sourceTree = "<group>"; };
+		A72B38AD1E6409FB00AC2178 /* SCQRCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCQRCodeScanner.m; sourceTree = "<group>"; };
+		A72B38BC1E64111C00AC2178 /* SCQRCodeFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SCQRCodeFramework.bundle; sourceTree = "<group>"; };
+		A7BF82E01E4C6C2100677E16 /* 二维码研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BF82E41E4C6C2100677E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7BF82E61E4C6C2100677E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7BF82E71E4C6C2100677E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7BF82E91E4C6C2100677E16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7BF82EA1E4C6C2100677E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7BF82ED1E4C6C2100677E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BF82EF1E4C6C2100677E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7BF82F21E4C6C2100677E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7BF82F41E4C6C2100677E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BF82FA1E4C705D00677E16 /* GeneratorQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorQRCodeViewController.h; sourceTree = "<group>"; };
+		A7BF82FB1E4C705D00677E16 /* GeneratorQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorQRCodeViewController.m; sourceTree = "<group>"; };
+		A7BF82FD1E4C707000677E16 /* ScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeViewController.h; sourceTree = "<group>"; };
+		A7BF82FE1E4C707000677E16 /* ScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeViewController.m; sourceTree = "<group>"; };
+		A7BF83001E4C708700677E16 /* RecognizerQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizerQRCodeViewController.h; sourceTree = "<group>"; };
+		A7BF83011E4C708700677E16 /* RecognizerQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizerQRCodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72B388A1E6408A600AC2178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF82DD1E4C6C2100677E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B38951E6408A600AC2178 /* SCQRCodeFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72B388F1E6408A600AC2178 /* SCQRCodeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A72B38A11E6409F000AC2178 /* class */,
+				A72B38901E6408A600AC2178 /* SCQRCodeFramework.h */,
+				A72B38911E6408A600AC2178 /* Info.plist */,
+				A72B38BC1E64111C00AC2178 /* SCQRCodeFramework.bundle */,
+			);
+			path = SCQRCodeFramework;
+			sourceTree = "<group>";
+		};
+		A72B38A11E6409F000AC2178 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A72B38A21E6409FB00AC2178 /* SCAuthorizationStatusTools.h */,
+				A72B38A31E6409FB00AC2178 /* SCAuthorizationStatusTools.m */,
+				A72B38A41E6409FB00AC2178 /* SCCapturePreview.h */,
+				A72B38A51E6409FB00AC2178 /* SCCapturePreview.m */,
+				A72B38A61E6409FB00AC2178 /* SCQRCodeGenerator.h */,
+				A72B38A71E6409FB00AC2178 /* SCQRCodeGenerator.m */,
+				A72B38A81E6409FB00AC2178 /* SCQRCodeManager.h */,
+				A72B38A91E6409FB00AC2178 /* SCQRCodeManager.m */,
+				A72B38AA1E6409FB00AC2178 /* SCQRCodeRecognizer.h */,
+				A72B38AB1E6409FB00AC2178 /* SCQRCodeRecognizer.m */,
+				A72B38AC1E6409FB00AC2178 /* SCQRCodeScanner.h */,
+				A72B38AD1E6409FB00AC2178 /* SCQRCodeScanner.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		A7BF82D71E4C6C2100677E16 = {
+			isa = PBXGroup;
+			children = (
+				A7BF82E21E4C6C2100677E16 /* 二维码研究 */,
+				A72B388F1E6408A600AC2178 /* SCQRCodeFramework */,
+				A7BF82E11E4C6C2100677E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BF82E11E4C6C2100677E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF82E01E4C6C2100677E16 /* 二维码研究.app */,
+				A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BF82E21E4C6C2100677E16 /* 二维码研究 */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF82E61E4C6C2100677E16 /* AppDelegate.h */,
+				A7BF82E71E4C6C2100677E16 /* AppDelegate.m */,
+				A7BF82E91E4C6C2100677E16 /* ViewController.h */,
+				A7BF82EA1E4C6C2100677E16 /* ViewController.m */,
+				A7BF82FA1E4C705D00677E16 /* GeneratorQRCodeViewController.h */,
+				A7BF82FB1E4C705D00677E16 /* GeneratorQRCodeViewController.m */,
+				A7BF83001E4C708700677E16 /* RecognizerQRCodeViewController.h */,
+				A7BF83011E4C708700677E16 /* RecognizerQRCodeViewController.m */,
+				A7BF82FD1E4C707000677E16 /* ScanQRCodeViewController.h */,
+				A7BF82FE1E4C707000677E16 /* ScanQRCodeViewController.m */,
+				A7BF82EC1E4C6C2100677E16 /* Main.storyboard */,
+				A7BF82EF1E4C6C2100677E16 /* Assets.xcassets */,
+				A7BF82F11E4C6C2100677E16 /* LaunchScreen.storyboard */,
+				A7BF82F41E4C6C2100677E16 /* Info.plist */,
+				A7BF82E31E4C6C2100677E16 /* Supporting Files */,
+			);
+			path = "二维码研究";
+			sourceTree = "<group>";
+		};
+		A7BF82E31E4C6C2100677E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF82E41E4C6C2100677E16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A72B388B1E6408A600AC2178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B38B21E6409FB00AC2178 /* SCQRCodeGenerator.h in Headers */,
+				A72B38B81E6409FB00AC2178 /* SCQRCodeScanner.h in Headers */,
+				A72B38AE1E6409FB00AC2178 /* SCAuthorizationStatusTools.h in Headers */,
+				A72B38B61E6409FB00AC2178 /* SCQRCodeRecognizer.h in Headers */,
+				A72B38B41E6409FB00AC2178 /* SCQRCodeManager.h in Headers */,
+				A72B38921E6408A600AC2178 /* SCQRCodeFramework.h in Headers */,
+				A72B38B01E6409FB00AC2178 /* SCCapturePreview.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A72B388D1E6408A600AC2178 /* SCQRCodeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72B38981E6408A600AC2178 /* Build configuration list for PBXNativeTarget "SCQRCodeFramework" */;
+			buildPhases = (
+				A72B38891E6408A600AC2178 /* Sources */,
+				A72B388A1E6408A600AC2178 /* Frameworks */,
+				A72B388B1E6408A600AC2178 /* Headers */,
+				A72B388C1E6408A600AC2178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCQRCodeFramework;
+			productName = SCQRCodeFramework;
+			productReference = A72B388E1E6408A600AC2178 /* SCQRCodeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7BF82DF1E4C6C2100677E16 /* 二维码研究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BF82F71E4C6C2100677E16 /* Build configuration list for PBXNativeTarget "二维码研究" */;
+			buildPhases = (
+				A7BF82DC1E4C6C2100677E16 /* Sources */,
+				A7BF82DD1E4C6C2100677E16 /* Frameworks */,
+				A7BF82DE1E4C6C2100677E16 /* Resources */,
+				A72B38961E6408A600AC2178 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72B38941E6408A600AC2178 /* PBXTargetDependency */,
+			);
+			name = "二维码研究";
+			productName = "二维码研究";
+			productReference = A7BF82E01E4C6C2100677E16 /* 二维码研究.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BF82D81E4C6C2100677E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pengweijian;
+				TargetAttributes = {
+					A72B388D1E6408A600AC2178 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CQ76J9KE2J;
+						ProvisioningStyle = Automatic;
+					};
+					A7BF82DF1E4C6C2100677E16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CQ76J9KE2J;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7BF82DB1E4C6C2100677E16 /* Build configuration list for PBXProject "二维码研究" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BF82D71E4C6C2100677E16;
+			productRefGroup = A7BF82E11E4C6C2100677E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BF82DF1E4C6C2100677E16 /* 二维码研究 */,
+				A72B388D1E6408A600AC2178 /* SCQRCodeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72B388C1E6408A600AC2178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B38BD1E64111C00AC2178 /* SCQRCodeFramework.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF82DE1E4C6C2100677E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B38BE1E64117C00AC2178 /* SCQRCodeFramework.bundle in Resources */,
+				A7BF82F31E4C6C2100677E16 /* LaunchScreen.storyboard in Resources */,
+				A7BF82F01E4C6C2100677E16 /* Assets.xcassets in Resources */,
+				A7BF82EE1E4C6C2100677E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72B38891E6408A600AC2178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B38B71E6409FB00AC2178 /* SCQRCodeRecognizer.m in Sources */,
+				A72B38B11E6409FB00AC2178 /* SCCapturePreview.m in Sources */,
+				A72B38B31E6409FB00AC2178 /* SCQRCodeGenerator.m in Sources */,
+				A72B38B91E6409FB00AC2178 /* SCQRCodeScanner.m in Sources */,
+				A72B38B51E6409FB00AC2178 /* SCQRCodeManager.m in Sources */,
+				A72B38AF1E6409FB00AC2178 /* SCAuthorizationStatusTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BF82DC1E4C6C2100677E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B385B1E5C2BE500AC2178 /* ScanQRCodeViewController.m in Sources */,
+				A7BF83021E4C708700677E16 /* RecognizerQRCodeViewController.m in Sources */,
+				A7BF82EB1E4C6C2100677E16 /* ViewController.m in Sources */,
+				A7BF82E81E4C6C2100677E16 /* AppDelegate.m in Sources */,
+				A7BF82FC1E4C705D00677E16 /* GeneratorQRCodeViewController.m in Sources */,
+				A7BF82E51E4C6C2100677E16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72B38941E6408A600AC2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72B388D1E6408A600AC2178 /* SCQRCodeFramework */;
+			targetProxy = A72B38931E6408A600AC2178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7BF82EC1E4C6C2100677E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF82ED1E4C6C2100677E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BF82F11E4C6C2100677E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF82F21E4C6C2100677E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72B38991E6408A600AC2178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQ76J9KE2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SCQRCodeFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.session.SCQRCodeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A72B389A1E6408A600AC2178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQ76J9KE2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SCQRCodeFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.session.SCQRCodeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7BF82F51E4C6C2100677E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7BF82F61E4C6C2100677E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BF82F81E4C6C2100677E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CQ76J9KE2J;
+				INFOPLIST_FILE = "二维码研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.session.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7BF82F91E4C6C2100677E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CQ76J9KE2J;
+				INFOPLIST_FILE = "二维码研究/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.session.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72B38981E6408A600AC2178 /* Build configuration list for PBXNativeTarget "SCQRCodeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72B38991E6408A600AC2178 /* Debug */,
+				A72B389A1E6408A600AC2178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7BF82DB1E4C6C2100677E16 /* Build configuration list for PBXProject "二维码研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF82F51E4C6C2100677E16 /* Debug */,
+				A7BF82F61E4C6C2100677E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BF82F71E4C6C2100677E16 /* Build configuration list for PBXNativeTarget "二维码研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF82F81E4C6C2100677E16 /* Debug */,
+				A7BF82F91E4C6C2100677E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BF82D81E4C6C2100677E16 /* Project object */;
+}
