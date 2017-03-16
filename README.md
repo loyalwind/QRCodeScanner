@@ -1,4 +1,4 @@
-# QRCodeScanner
+# SCQRCodeManager
 苹果原生二维码扫描，识别，生成：使用响应式实现功能
 
 
@@ -40,7 +40,7 @@ NSString *string = SCQRCodeManager.sharedManager.qrCodeRecognizer.recognizeQRCod
 
     // 5.开始扫描
     [_scanner startScanCompeletion:^(NSString * _Nullable qrcodeString) {
-    NSLog(@"扫描结果：%@",qrcodeString);
+        NSLog(@"扫描结果：%@",qrcodeString);
     }];
 }
 
@@ -52,7 +52,7 @@ NSString *string = SCQRCodeManager.sharedManager.qrCodeRecognizer.recognizeQRCod
 }
 
 ```
-### 其他设置
+### 4.其他设置
 ```objc
 // 切换扫描识别大区域
 - (IBAction)switchBigAreaAction 
